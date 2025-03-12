@@ -3,6 +3,63 @@
   "title": "All indicators",
   "resources": [
     {
+      "path": "Indicator _12-a-1/data.csv",
+      "name": "Indicator _12-a-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Installed renewable electricity-generating capacity (watts per capita)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Type of Renewable Technology",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bioenergy",
+                "Geothermal",
+                "Hydropower",
+                "Marine",
+                "Solar",
+                "Wind",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "watts per capita",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Indicator _12-a-1"
+    },
+    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
