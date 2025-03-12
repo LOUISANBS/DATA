@@ -49,6 +49,64 @@
       "title": "Indicator_12-2-2"
     },
     {
+      "path": "Indicator_12-6-1/data.csv",
+      "name": "Indicator_12-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number of companies publishing sustainability reports",
+                ""
+              ]
+            },
+            "title": "Series"
+          },
+          {
+            "name": "ACTIVITY",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Mining and quarrying",
+                "Finance and Insurance activities",
+                ""
+              ]
+            },
+            "title": "ACTIVITY"
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Indicator_12-6-1"
+    },
+    {
       "path": "Indicator _12-a-1/data.csv",
       "name": "Indicator _12-a-1",
       "profile": "tabular-data-resource",
