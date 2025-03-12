@@ -56,7 +56,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Value"
           }
         ]
@@ -109,7 +109,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                " Percentage %",
+                "Percentage %",
                 ""
               ]
             },
@@ -151,23 +151,27 @@
             "title": "Series"
           },
           {
-            "name": "ACTIVITY",
+            "name": "activity",
             "type": "string",
             "constraints": {
               "enum": [
-                "Mining and quarrying",
+                "Number",
                 "Finance and Insurance activities",
+                "Mining and quarrying",
                 ""
               ]
             },
-            "title": "ACTIVITY"
+            "title": "activity"
           },
           {
             "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
+                "1",
                 "Number",
+                "2",
+                "5",
                 ""
               ]
             },
@@ -175,7 +179,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Value"
           }
         ]
