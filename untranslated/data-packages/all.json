@@ -115,63 +115,6 @@
       "title": "Indicator_12-4-1"
     },
     {
-      "path": "Indicator_12-6-1/data.csv",
-      "name": "Indicator_12-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number of companies publishing sustainability reports",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "activity",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Number",
-                "Finance and Insurance activities",
-                "Mining and quarrying",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "1",
-                "Number",
-                "2",
-                "5",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Indicator_12-6-1"
-    },
-    {
       "path": "Indicator _12-a-1/data.csv",
       "name": "Indicator _12-a-1",
       "profile": "tabular-data-resource",
@@ -269,48 +212,6 @@
         ]
       },
       "title": "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"
-    },
-    {
-      "path": "Indicator_12-c-1/data.csv",
-      "name": "Indicator_12-c-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Series",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Fossil-fuel subsidies (consumption and production) as a proportion of total GDP (%)",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Units",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "%",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "Indicator_12-c-1"
     },
     {
       "path": "1-1-1/data.csv",
