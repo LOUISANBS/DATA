@@ -30,9 +30,11 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Tonne",
                 "Households",
                 "Out-of-home Consumption",
                 "Retail",
+                "per capita (KG)",
                 ""
               ]
             }
@@ -42,8 +44,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "46640843.73",
                 "Tonne",
+                "33711605.11",
+                "229.41",
                 "per capita (KG)",
+                "154.26",
                 ""
               ]
             }
