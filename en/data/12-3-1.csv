@@ -1,1 +1,17 @@
-Year,Value
+Year,Series,Food waste sector,Units,Value
+2019,Food loss index,,Tonne,46640843.73
+2019,Food loss index,Households,Tonne,37941470.49
+2019,Food loss index,Out-of-home Consumption,Tonne,5556256.6
+2019,Food loss index,Retail,Tonne,3143116.64
+2022,Food loss index,,Tonne,33711605.11
+2022,Food loss index,Households,Tonne,24791826.12
+2022,Food loss index,Out-of-home Consumption,Tonne,6804775.6
+2022,Food loss index,Retail,Tonne,2115003.39
+2019,Food waste index,,per capita (KG),229.41
+2019,Food waste index,Households,per capita (KG),186.62
+2019,Food waste index,Out-of-home Consumption,per capita (KG),27.33
+2019,Food waste index,Retail,per capita (KG),15.46
+2022,Food waste index,,per capita (KG),154.26
+2022,Food waste index,Households,per capita (KG),113.44
+2022,Food waste index,Out-of-home Consumption,per capita (KG),31.14
+2022,Food waste index,Retail,per capita (KG),9.68

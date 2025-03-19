@@ -12,7 +12,41 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Food loss index",
+                "Food waste index",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Food waste sector",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Households",
+                "Out-of-home Consumption",
+                "Retail",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Tonne",
+                "per capita (KG)",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
