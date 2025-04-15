@@ -59,6 +59,62 @@
       "title": "(a) Food loss index and (b) food waste index"
     },
     {
+      "path": "Indicator_12-4-1/data.csv",
+      "name": "Indicator_12-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Parties meeting their commitments and obligations in transmitting information on hazardous waste, and other chemicals (%)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Parties",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Montreal Protocol",
+                "Rotterdam Convention",
+                "Basel Convention",
+                "Stockholm Convention",
+                "Minamata Convention",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage %",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "Indicator_12-4-1"
+    },
+    {
       "path": "12-2-2/data.csv",
       "name": "12-2-2",
       "profile": "tabular-data-resource",
