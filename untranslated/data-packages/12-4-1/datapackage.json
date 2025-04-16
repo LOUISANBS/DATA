@@ -12,7 +12,41 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
+          },
+          {
+            "name": "Series",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Parties meeting their commitments and obligations in transmitting information on hazardous waste, and other chemicals (%)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Parties",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Montreal Protocol",
+                "Rotterdam Convention",
+                "Basel Convention",
+                "Stockholm Convention",
+                "Minamata Convention",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Percentage %",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
