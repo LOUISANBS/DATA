@@ -32,8 +32,8 @@ STAT_CONC_DEF: ''
 UNIT_MEASURE: ''
 CLASS_SYSTEM: ''
 SRC_TYPE_COLL_METHOD: ''
-SOURCE_TYPE: |
-  Federal Ministry of Environment, NBS, NIGERIA
+SOURCE_TYPE: |2
+   Federal Ministry of Environment
 COLL_METHOD: ''
 FREQ_COLL: ''
 REL_CAL_POLICY: ''
